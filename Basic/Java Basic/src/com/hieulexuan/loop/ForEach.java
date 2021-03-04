@@ -1,0 +1,21 @@
+package com.hieulexuan.loop;
+
+public class ForEach {
+
+	public static void main(String[] args) {
+		int[] mang = {1, 2, 3, 4, 5};
+		
+		for (int i : mang) {
+			System.out.println(i);
+		}
+		
+		System.out.println("-----");
+		
+		String[] sts = {"Hello", "Peter", "Jenny"};
+		
+		for (String string : sts) {
+			System.out.println(string);
+		}
+	}
+	
+}

@@ -1,0 +1,25 @@
+package com.hieulexuan.object;
+
+public class Person {
+
+	String name;
+	String address;
+	int age;
+	
+	public void walk(String name) {
+		System.out.println(name + "walk.");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		new Person();//object 1
+		Person person1 = new Person();//object 2
+		Person person2 = new Person();//object 3
+		
+		person1.walk("Hieu ");
+		
+		
+	}
+
+}

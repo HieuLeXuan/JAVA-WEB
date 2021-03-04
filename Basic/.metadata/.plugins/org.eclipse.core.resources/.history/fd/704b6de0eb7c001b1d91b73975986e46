@@ -1,0 +1,19 @@
+package com.hieulexuan.object;
+
+public class Rectangle {
+
+	static int count = 0; //bien class
+	
+	public static int chuVi(int chieuDai, int chieuRong) {
+		return (chieuDai + chieuRong) * 2;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(Rectangle.count);
+		
+		Rectangle.count ++;
+		
+		System.out.println(Rectangle.count);
+	}
+	
+}

@@ -1,0 +1,30 @@
+
+public class Function {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(sumNumber1(10, 15));
+		
+	}
+	
+	public static int sumNumber() {
+		int x = 10;
+		int y = 15;
+		int tong = x + y;
+		return tong;
+	}
+	
+	public static int sumNumber1(int x, int y) {
+		return x - y;
+	}
+	
+	public static void Hi() {
+		System.out.println("Hi!");
+	}
+	
+	public static float PI() {
+		return 3.14f;
+	}
+
+}

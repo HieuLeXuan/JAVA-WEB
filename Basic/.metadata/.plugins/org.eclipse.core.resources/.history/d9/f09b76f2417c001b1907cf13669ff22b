@@ -1,0 +1,10 @@
+package com.hieulexuan.object;
+
+public class Person {
+
+	String name;
+	int age;
+	
+	
+
+}

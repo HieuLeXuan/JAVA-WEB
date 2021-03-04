@@ -1,0 +1,5 @@
+package com.hieulexuan.object;
+
+public interface Main {
+
+}

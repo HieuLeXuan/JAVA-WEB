@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="example1.Rectangle"/>
+<fullyQualifiedTypeName name="com.hieulexuan.loop.White"/>
+<fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.regexp.joni.ScanEnvironment"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.hieulexuan.object.Person"/>
+<fullyQualifiedTypeName name="com.hieulexuan.object.Book"/>
+<fullyQualifiedTypeName name="com.hieulexuan.object.Rectangle"/>
+<fullyQualifiedTypeName name="com.hieulexuan.domain.Person"/>
+</qualifiedTypeNameHistroy>

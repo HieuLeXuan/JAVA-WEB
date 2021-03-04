@@ -1,0 +1,11 @@
+package com.hieulexuan.object;
+
+public class Rectangle {
+
+	static int count = 0; //bien class
+	
+	public static int chuVi(int chieuDai, int chieuRong) {
+		return (chieuDai + chieuRong) * 2;
+	}
+
+}

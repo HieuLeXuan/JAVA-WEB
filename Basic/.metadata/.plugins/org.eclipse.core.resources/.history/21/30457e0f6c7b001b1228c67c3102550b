@@ -1,0 +1,13 @@
+
+public class Constant {
+
+	public static final int A_B_C = 4;
+	
+	public static final int PI = 3.14;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

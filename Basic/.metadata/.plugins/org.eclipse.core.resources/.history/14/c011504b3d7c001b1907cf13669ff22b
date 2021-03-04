@@ -1,0 +1,10 @@
+package com.hieulexuan.practices;
+
+public class MultipleChoiceQuestions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

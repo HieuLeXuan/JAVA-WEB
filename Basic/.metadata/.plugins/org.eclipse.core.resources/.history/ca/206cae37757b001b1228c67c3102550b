@@ -1,0 +1,17 @@
+package com.hieulexuan.practices;
+
+public class PhuongTrinhBac2 {
+	
+	public static void main(String[] args) {
+		
+		/*	ax^2 + bx + c = 0
+		 * 	if a = 0, x = -c/b
+		 * 	if a! = 0, delta = b^2 - 4ac
+		 * 		if delta < 0, phuong trinh vo nghiem
+		 * 		if delta = 0, x1 = x2 = -b / 2a
+		 * 		if delta > 0, x1 = (-b - Math.sqrt(delta)) / 2a, x2 = (-b + Math.sqrt(delta)) / 2a;
+		 */
+		
+	}
+	
+}

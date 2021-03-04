@@ -1,0 +1,14 @@
+package basic;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		// TODO Auto-generated method stub
+		
+		java.lang.String s = "How are you today?";
+		
+		System.out.println(s);
+		
+	}
+
+}
