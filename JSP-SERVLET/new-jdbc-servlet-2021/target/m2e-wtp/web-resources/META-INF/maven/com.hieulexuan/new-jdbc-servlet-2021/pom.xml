@@ -11,11 +11,18 @@
 		<jsp.api.version>2.0</jsp.api.version>
 		<jstl.version>1.2</jstl.version>
 		<servlet.api.version>3.1.0</servlet.api.version>
+		<sitemesh.decoration.version>2.4.2</sitemesh.decoration.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/opensymphony/sitemesh -->
+		<dependency>
+			<groupId>opensymphony</groupId>
+			<artifactId>sitemesh</artifactId>
+			<version>${sitemesh.decoration.version}</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.servlet/jsp-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>

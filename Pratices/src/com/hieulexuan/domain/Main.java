@@ -14,11 +14,11 @@ public class Main {
 		for(int i = 0; i < emps.length; i++) {
 			String nameStress = scanner.nextLine();
 			String name = scanner.nextLine();
-			double salary = scanner.nextDouble();
+			int experYears = scanner.nextInt();
 			
 			Address address = new Address(nameStress);
 			
-			Employees emp = new Employees(name, salary);// bien tham chieu tro toi bo nho head.
+			Employees emp = new Employees(name, experYears);// bien tham chieu tro toi bo nho head.
 			emp.setAddress(address);
 			
 			emps[i] = emp;
@@ -30,7 +30,7 @@ public class Main {
 		for (Employees employees : emps) {
 			System.out.println("name: " + employees.getName() + 
 					" address: " + employees.getAddress().getNameStress() + 
-					" salary: " +employees.getSalary());
+					" salary: " +employees.salary());
 		}
 	}
 }

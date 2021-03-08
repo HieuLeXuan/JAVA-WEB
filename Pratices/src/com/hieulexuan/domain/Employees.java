@@ -2,29 +2,35 @@ package com.hieulexuan.domain;
 
 public class Employees extends Person {
 
-	private double salary;
+	private int experYears;
 
 	public Employees() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employees(String name) {
+	public Employees(String name, int experYears) {
 		super(name);
-		// TODO Auto-generated constructor stub
+		this.experYears = experYears;
 	}
 
-	public Employees(String name, double salary) {
-		super(name);
-		this.salary = salary;
+	public int getExperYears() {
+		return experYears;
 	}
 
-	public double getSalary() {
-		return salary;
+	public void setExperYears(int experYears) {
+		this.experYears = experYears;
 	}
-
-	public void setSalary(double salary) {
-		this.salary = salary;
+	
+	@Override
+	public double salary() {
+		if (this.experYears < 1) {
+			return super.salary() * 1.5;
+		} else if (this.experYears >= 1 && this.experYears < 3) {
+			return super.salary() * 2;
+		} else {
+			return super.salary() * 3;
+		}
 	}
 
 }

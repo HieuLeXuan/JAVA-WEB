@@ -2,6 +2,7 @@ package com.hieulexuan.domain;
 
 public class Person {
 
+	private final double ORIGANAL_SALARY = 2000000; 
 	private String name;
 	private Address address;
 
@@ -29,6 +30,10 @@ public class Person {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+	
+	public double salary() {
+		return ORIGANAL_SALARY;
 	}
 
 }
